@@ -78,7 +78,7 @@ def train_model():
     df = generate_sample()
 
     X = df.drop(columns=["recommended_activity"])
-    y = df["recommended_activity"])
+    y = df["recommended_activity"]
 
     # Encode target labels
     label_encoder = LabelEncoder()
